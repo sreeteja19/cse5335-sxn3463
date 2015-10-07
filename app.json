@@ -1,75 +1,8 @@
 {
-  "studentsdatabase": "Student Details",
-  "student_details": [
-    {
-      "studentname": "Sree Teja",
-      "age": "24",
-      "course": "CS",
-      "lat": 12,
-      "long": 23
-    },
-    {
-      "studentname": "Prudhvi Raj",
-      "age": "22",
-      "course": "CS",
-      "lat": 15,
-      "long": 23
-    },
-    {
-      "studentname": "Srija",
-      "age": "23",
-      "course": "CS",
-      "lat": 17,
-      "long": 23
-    },
-    {
-      "studentname": "Kalyani",
-      "age": "23",
-      "course": "BME",
-      "lat": 19,
-      "long": 23
-    },
-    {
-      "studentname": "Surendra",
-      "age": "24",
-      "course": "CS",
-      "lat": 17,
-      "long": 82
-    },
-    {
-      "studentname": "Yashwanthini",
-      "age": "24",
-      "course": " EM",
-      "lat": 23,
-      "long": 23
-    },
-    {
-      "studentname": "sanju",
-      "age": "25",
-      "course": "MIS",
-      "lat": 25,
-      "long": 23
-    },
-    {
-      "studentname": "Sami",
-      "age": "22",
-      "course": "IT",
-      "lat": 27,
-      "long": 23
-    },
-    {
-      "studentname": "Pony",
-      "age": "22",
-      "course": "CS",
-      "lat": 29,
-      "long": 23
-    },
-    {
-      "studentname": "Revathi",
-      "age": "23",
-      "course": "CS",
-      "lat": 31,
-      "long": 23
-    }
-  ]
+  "name": "Node.js Getting Started",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
 }
