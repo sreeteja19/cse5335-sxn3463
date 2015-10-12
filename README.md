@@ -1,38 +1,13 @@
-# node-js-getting-started
-
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+5
+a) I used node.js server frame as it allows users to handle large number of aplications simulataneously with high through put. nodejs uses event loop to 
+run the events according to their size rather than  fisrt come fisrt serve
+b)I used jquery in client side frame work as it flexible to change the contents of page dynamically.Jquery enables users to change Ajax templates. 
+where ajax on other hand performs its operation without reloading the full page.
+c)backend of the project is easy because of node.js libraries which run on V8 engine. Theselibraries are built on asynchronous approach to provide a fast,
+scalable system. 
+d)there is difficulty at ajax calling
+e)I did not use other components other than client and server framework.
+f) Ubuntu commands that are required to deploy the code are
+   a) git ass .
+   b) git commit -m "xyz "
+   c) git push heroku master
